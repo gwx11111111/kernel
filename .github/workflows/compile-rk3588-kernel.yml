@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq/linux-5.10.y-rk35xx"
+        default: "gwx11111111/linux-5.10.y-rk35xx"
         type: choice
         options:
+          - gwx11111111/linux-5.10.y-rk35xx
           - unifreq/linux-5.10.y-rk35xx
       kernel_version:
         description: "Select kernel version"
