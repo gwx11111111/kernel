@@ -13,17 +13,18 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "gwx11111111/linux-5.10.y-rk35xx"
+        default: "gwx11111111/rk3588_n"
         type: choice
         options:
-          - gwx11111111/linux-5.10.y-rk35xx
+          - gwx11111111/rk3588_n
           - unifreq/linux-5.10.y-rk35xx
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "5.10.1"
+        default: "5.10.66"
         type: choice
         options:
+          - 5.10.66
           - 5.10.1
       kernel_auto:
         description: "Auto use the latest kernel"
