@@ -3168,13 +3168,13 @@ CONFIG_BCMDHD=y
 CONFIG_AP6XXX=m
 CONFIG_BCMDHD_SDIO=y
 # CONFIG_BCMDHD_PCIE is not set
-CONFIG_BCMDHD_FW_PATH="/vendor/etc/firmware/fw_bcmdhd.bin"
-CONFIG_BCMDHD_NVRAM_PATH="/vendor/etc/firmware/nvram.txt"
+CONFIG_BCMDHD_FW_PATH="/lib/firmware/fw_bcmdhd.bin"
+CONFIG_BCMDHD_NVRAM_PATH="/lib/firmware/nvram.txt"
 # CONFIG_BCMDHD_STATIC_IF is not set
 # CONFIG_CYW_BCMDHD is not set
 # CONFIG_INFINEON_DHD is not set
-CONFIG_RTL8852BE=m
-CONFIG_RTL8852BU=m
+#CONFIG_RTL8852BE is not set
+#CONFIG_RTL8852BU is not set
 # CONFIG_MAC80211_HWSIM is not set
 CONFIG_USB_NET_RNDIS_WLAN=m
 CONFIG_VIRT_WIFI=m
